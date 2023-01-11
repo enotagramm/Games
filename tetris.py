@@ -15,7 +15,7 @@ grid = [pygame.Rect(x * TILE, y * TILE, TILE, TILE) for x in range(W) for y in r
 colors = {
     'grid': (90, 40, 40),
 }
-
+212e1e
 figures_position = [
     [(), (), (), ()],
     [(), (), (), ()],
