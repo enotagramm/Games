@@ -26,10 +26,11 @@ anim_count, anim_speed, anim_limit = 0, 60, 500
 steps = {'K_UP': False, 'K_DOWN': False, 'K_LEFT': False, 'K_RIGHT': False}
 # добыча
 food_set = tuple()
-# цвета
-game_bg = (104, 20, 130)
 # очки
 score = 0
+# цвета
+game_bg = (104, 20, 130)
+
 pygame.init()
 # Создание сетки
 # grid = [pygame.Rect(x * snake_tile, y * snake_tile, snake_tile, snake_tile) for x in range(W) for y in range(H)]
